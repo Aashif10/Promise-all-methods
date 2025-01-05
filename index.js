@@ -51,13 +51,13 @@
 //^  and returns a single promise this promise reject or resolves as soon as the first promise
 //^  in the  setlleds (either rejected or resolves).
 
-const promise1 = Promise.reject("Reject first promise")
-const promise2 = Promise.reject("An Error Occurred!");
-const promise3 = Promise.resolve(20);
+// const promise1 = Promise.reject("Reject first promise")
+// const promise2 = Promise.reject("An Error Occurred!");
+// const promise3 = Promise.resolve(20);
 
-Promise.race([promise1, promise2, promise3])
-    .then((result) => {
-    console.log(result)
-    }).catch((error) => {
-    console.log("Error:",error)
-})
+// Promise.race([promise1, promise2, promise3])
+//     .then((result) => {
+//     console.log(result)
+//     }).catch((error) => {
+//     console.log("Error:",error)
+// })
