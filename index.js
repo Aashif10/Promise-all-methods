@@ -61,3 +61,17 @@
 //     }).catch((error) => {
 //     console.log("Error:",error)
 // })
+// * Event Loop in javascript
+// ^ javascript is single threaded which means javascript has single call stack.
+// ^ In javascript event loop is functional concept that allows to perform
+// ^ non-blocking execution despite being single threded such as fetch API,
+// ^ promise ,callback,events
+
+// * How call stack works
+// ^ javascript code run in a single threaded and call stack used to keep track the function
+// ^ calls when a function call that function added in the call stack when a function funished
+// ^ function remove from the call stack.
+
+
+
+
